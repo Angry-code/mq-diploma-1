@@ -1,0 +1,58 @@
+.header {
+   background-image: url("/images/banner-bg-tablet.jpg");
+} 
+
+.header__logo {
+  width: 180px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 15px;
+  margin-right: 0;
+  padding-top: 0;
+  margin-top: -35px;
+}
+
+.header__menu  {
+    padding-top: 50px;
+}    
+
+.trend__conteiner {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  
+}  
+
+.trend__block {
+    width: calc(50% - 4px);
+    margin-bottom: 0px;
+}
+
+@media (orientation: landscape) {
+  .trends__conteiner {
+    flex-wrap: nowrap;
+  }
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 34px;
+  margin-right: 34px;  
+}
+
+.post {
+  margin-right: 34px;   
+}
+
+.shop__conteiner {
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 24px;
+}
+
+.product {
+    width: calc(50% - 24px);
+}
+
