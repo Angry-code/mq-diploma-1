@@ -1,6 +1,6 @@
 .header {
-   background-image: url("/images/banner-bg-tablet.jpg");
-} 
+  background-image: url("../images/banner-bg-tablet.jpg");
+}
 
 .header__logo {
   width: 180px;
@@ -12,21 +12,26 @@
   margin-top: -35px;
 }
 
-.header__menu  {
-    padding-top: 50px;
-}    
+.header__title {
+  margin-right: 82px;
+  margin-left: 82px;
+}
+
+.header__menu {
+  padding-top: 50px;
+}
 
 .trend__conteiner {
-  
+
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  
-}  
+
+}
 
 .trend__block {
-    width: calc(50% - 4px);
-    margin-bottom: 0px;
+  width: calc(50% - 4px);
+  margin-bottom: 0px;
 }
 
 @media (orientation: landscape) {
@@ -39,20 +44,19 @@
   display: flex;
   justify-content: space-between;
   margin-left: 34px;
-  margin-right: 34px;  
+  margin-right: 34px;
 }
 
-.post {
-  margin-right: 34px;   
+.side-bar {
+  width: 270px;
 }
 
 .shop__conteiner {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   gap: 24px;
 }
 
 .product {
-    width: calc(50% - 24px);
+  width: calc(50% - 24px);
 }
-
