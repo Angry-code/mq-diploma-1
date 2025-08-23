@@ -249,6 +249,8 @@ ul {
 
 .trend__conteiner {
   width: 100%;
+  gap: 4px;
+
 }
 
 .trend__block {
@@ -260,7 +262,7 @@ ul {
 }
 
 @media (orientation: landscape) {
-  .trends__conteiner {
+  .trend__conteiner {
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
@@ -274,9 +276,43 @@ ul {
 
 .trend__img {
   width: 100%;
+  height: 400px;
   display: block;
   object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000000;
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+}
+
+.trend__img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000000;
   opacity: 0.4;
+  z-index: -1;
+}
+
+.trend__img-first {
+  background-image: url("../images/trend1.jpg");
+}
+
+.trend__img-second {
+  background-image: url("../images/trend2.jpg");
+}
+
+.trend__img-third {
+  background-image: url("../images/trend3.jpg");
+}
+
+.trend__img-fourth {
+  background-image: url("../images/trend4.jpg");
 }
 
 .trend__info {
